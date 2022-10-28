@@ -3,12 +3,18 @@
     padding: 0;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: 2fr 5fr;
+.wrap {
+    max-width: 1200px;
+    margin: auto;
+
 }
 
-.grid > div {
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+}
+
+.grid>div {
     border: 1px solid #000;
     padding: 10px;
 }
